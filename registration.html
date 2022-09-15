@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <h1 id='title'>Registration</h1>
+    <p id='description'>Here you will tell us more about you.</p>
+    <form id='survey-form'>
+      <fieldset>
+       <label for='name' id='name-label'>Enter your name here:<input placeholder='Name' id='name' type='text' required></label>
+     <label for='email' id='email-label'>Enter your e-mail address here: <input placeholder='E-mail' id='email' type='email' required></label>
+      <label for='number' id='number-label'>Tell us your age:<input placeholder='Age' id='number' type='number' min='18' max='50' required></label>
+      </fieldset>
+      <fieldset class='alone'>Do you have any Web-Dev expirience?
+      <select id='dropdown'>
+      
+      <option value='1'>Default</option>
+      <option value='2'>Yes</option>
+      <option value='3'>No</option>
+      </select>
+      <fieldset class='alone'>
+      <label for='selftaught'><input  class='inline' name='radios' id='selftaught' name='radtionbtn' type='radio' value='self'>Self-taught</label>
+      <label for='csdegree'><input id='csdegree' name='radios' class='inline' name='radiobtn' type='radio' value='cs'>CS Degree</label>
+      <label for='other'><input id='other' class='inline' type='radio' name='radios' value='other'>Other</label>
+      </fieldset>
+      
+  
+      
+      <fieldset class='alone'>What technologies did you study so far?
+      <label for='js'><input name='radios'  class='inline' type='radio' value='js' id='js'>JavaScript</label>
+      <label for='java'><input  name='rdios'  class='inline' type='radio' value='java' id='java'>Java</label>
+      <label for='python'><input name='radios' class='inline' type='radio' value='python' id='python'>Python</label>
+      </fieldset>
+      <fieldset class='alone'>
+      <label for='checkbox'><input id='checkbox'  class='inline' type='checkbox' value='check1'>Do you want to do our test?<a href="https://devskiller.com/coding-tests-skill/web-development/">Click here</a></label>
+      <label for='checkbox1'><input id='checkbox1' type='checkbox' class='inline' value='check2'>If you not ready study this course...<a href='https://www.udemy.com/course/the-web-developer-bootcamp/'>Click here</a>   </label>
+      </fieldset>
+  
+      
+     
+  
+      <fieldset>
+        <label>If you have any question tell us...<textarea id='textarea' rows='3' cols='25' placeholder='Type here...'></textarea></label>
+        </fieldset>
+        <fieldset>
+      <input type='submit' id='submit'>
+      </fieldset>
+  
+  
+  
+    </form>
+</body>
+</html>
